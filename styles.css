@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
+	margin: 0;
 }
 
 body {
@@ -33,7 +34,6 @@ header img {
 	align-items: center;
 	justify-content: center;
 }
-
 
 .menu-links a {
 	color: #e7e7e768;
@@ -126,19 +126,35 @@ img {
 }
 
 
-
-
-
-
-
-
+/* Seccion main-3 */
 
 
 .main-3 {
 	display: flex;
-	flex: 1;
-	background-color: red;
+	flex-direction: column;
+	background-color: #e5e7eb;
+	padding: 90px 25% 90px 25%;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 200;
+	color: grey;
 }
+
+.autor {
+	text-align: end;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 900;
+	color: black;
+}
+
+.autor p {
+	margin: 0;
+}
+
+
+
+
 
 .main-4 {
 	display: flex;
