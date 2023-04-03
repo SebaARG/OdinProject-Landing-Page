@@ -48,9 +48,8 @@ a:hover {
 
 .main-1 {
 	display: flex;
-	/* justify-content: space-between; */
 	background-color: #1f2937;
-	padding: 54px 14% 0 16%;
+	padding: 120px 14% 0 16%;
 }
 
 .container {
@@ -68,7 +67,7 @@ a:hover {
 .container p {
 	font-size: 18px;
 	color: #e7e7e768;
-	margin: 0;
+	margin-top: 20px;
 }
 
 .container button {
